@@ -1,14 +1,14 @@
 {
   "name": "path-hyperclick",
-  "main": "./lib/path-jumper",
+  "main": "./lib/main",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "File jumper with hyperclick",
   "keywords": [
     "hyperclick",
     "path",
     "file"
   ],
-  "repository": "https://github.com/atom/path-jumper",
+  "repository": "https://github.com/wingyplus/path-hyperclick",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
