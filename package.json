@@ -1,0 +1,25 @@
+{
+  "name": "path-hyperclick",
+  "main": "./lib/path-jumper",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "hyperclick",
+    "path",
+    "file"
+  ],
+  "repository": "https://github.com/atom/path-jumper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
+    }
+  }
+}
