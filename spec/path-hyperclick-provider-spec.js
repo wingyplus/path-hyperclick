@@ -4,11 +4,11 @@ import pathHyperclick from "../lib/main";
 
 describe("PathHyperclickProvider", () => {
   function match(s) {
-    expect(s.match(pathHyperclick.getProvider().wordRegExp)).toBeTruthy();
+    expect(s).toMatch(pathHyperclick.getProvider().wordRegExp);
   }
 
   function notMatch(s) {
-    expect(s.match(pathHyperclick.getProvider().wordRegExp)).toBeFalsy();
+    expect(s).not.toMatch(pathHyperclick.getProvider().wordRegExp);
   }
 
   describe("wordRegExp", () => {
